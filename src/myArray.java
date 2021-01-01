@@ -32,6 +32,7 @@ public class myArray<T>{
     for(int i = 0 ; i < length ; i++){
       if(i != index){
         tempArray[count] = array[i];
+        count = count+1;
       }
     }
     this.array = tempArray;
